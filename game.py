@@ -3,7 +3,6 @@ import random
 inventory = []
 score = 0
 
-# Create an intro for your app
 def intro():
     print("Welcome Traveller!")
     print("Today we will be going through a survival game")
@@ -58,11 +57,11 @@ def enemy_room():
     print("-----------------------------")
     print("You encounter a Zombie!")
     print("You have ", inventory, " items in your inventory")
-    action = input("What will you do?: (options: attack, use item.)")
+    action = input("What will you do?: (options: attack, use item.)").lower()
     if action =="use item":
         print("The items in your inventory are", inventory)
         if "gun" in inventory:
-            use_gun = input("Would you like to use the gun? (yes or no?): ")
+            use_gun = input("Would you like to use the gun? (yes or no?): ").lower()
             if use_gun == "yes" and "bullets" in inventory:
                 print("You shoot the zombie and kill it")
                 inventory.remove("gun")
@@ -78,7 +77,7 @@ def enemy_room():
                 print("Input not accepted try again")
                 enemy_room()
         elif "med pack" in inventory:
-            use_med_pack = input("Would you like to use the med pack? (yes or no?): ")
+            use_med_pack = input("Would you like to use the med pack? (yes or no?): ").lower()
             if use_med_pack == "yes":
                 print("You throw the med pack and get away")
                 inventory.remove("med pack")
@@ -86,7 +85,7 @@ def enemy_room():
             else:
                 you_lose()
         elif "bullets" in inventory:
-            use_bullets = input("Would you like to use the bullets? (yes or no?): ")
+            use_bullets = input("Would you like to use the bullets? (yes or no?): ").lower()
             if use_bullets == "yes":
                 print("You throw the bullets causing a distraction and get away")
                 inventory.remove("bullets")

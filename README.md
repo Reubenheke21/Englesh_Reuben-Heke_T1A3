@@ -3,6 +3,9 @@
 ## Python Style Guide
 ### https://docs.python-guide.org/writing/style/
 
+## Git Repository
+[link Here](https://github.com/Reubenheke21/Englesh_Reuben-Heke_T1A3)
+
 There will be 3 features included in the application.
 * User will have full control over the story depending on their answers and what they choose they will get different results. As it will be texted based, the user will be offered a range of options. Depending on what they enter will determine how their adventure goes, whether they find items, continue on or don't make it the whole way.
 * Enemies throughout the game, depending on what tools etc they find throughough their playthrough will impact if they make it through the building or not
