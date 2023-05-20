@@ -9,8 +9,8 @@
 There will be 3 features included in the application.
 * User will have full control over the story depending on their answers and what they choose they will get different results. As it will be texted based, the user will be offered a range of options. Depending on what they enter will determine how their adventure goes, whether they find items, continue on or don't make it the whole way.
 * Enemies throughout the game, depending on what tools etc they find throughough their playthrough will impact if they make it through the building or not
-* Scoring System, it will store all the previous players information and display the results at the end of the game to see if you measure up to other players.
-* Other items available in game, like med packs, weapons. These can be picked up be picking a correct box if there is one in the room and available. Customers will have an inventory too but can only hold up to 3 items throughout their play through.
+* Scoring System, it will display what score you got at the end of the game, that way you can keep record and challenge your friends
+* Other items available in game, like med packs, weapons. These can be picked up be picking a correct box if there is one in the room and available. Users will have an inventory too.
 
 ## Project Management Guide
 ### https://trello.com/b/c5pZIm49/project-management
@@ -22,4 +22,6 @@ There will be 3 features included in the application.
 
 [Link Here](/How%20to%20Install%20and%20play%20Zombie%20Adventure.docx)
 
+## Link to Video explaining the game
+[Link Here](https://youtu.be/rm2HGtE4qZg)
 
